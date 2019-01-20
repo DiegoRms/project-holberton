@@ -1,38 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Artists</title>
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <script src="behavior.js"></script>
 </head>
-<body>
-        <class="works_on_smartphone">
+
+<body class="works_on_smartphone">
     <header>
-        <div>
-        <ul>
-            <li> <a href="tweets.html">Tweets</a> </li>
-            <li><a href="Musicgenrs.html">Music genres</a> </li>
-            <li><a href="index.html">Music</a> </li>
-        </ul>
-    </div>
+        <div class="logo">
+            <a href="http://92.243.24.24"><img src="logo.png" alt="logo" width="120" height="50"></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li> <a href="index.html">Music</a> </li>
+                <li> <a href="musicgenres.html">Music genres</a> </li>
+                <li> <a href="tweets.html">Tweets</a> </li>
+            </ul>
+        </div>
     </header>
     <main>
         <article>
+            <h1>Michael Jackson</h1>
+            <div class="nene">
+                <div class="he">
+                    <P>
+                        <strong> Michael Joseph Jackson </strong> (August 29, 1958 – June 25, 2009) was an American
+                        singer, songwriter and dancer. Dubbed the "King of Pop", he is regarded as one of the most
+                        significant
+                        cultural icons of the 20th century and is also regarded as one of the greatest entertainers of
+                        all
+                        time. Jackson's contributions to music, dance, and fashion, along with his publicized personal
+                        life,
+                        made him a global figure in popular culture for over four decades.
+                    </P>
+                </div>
 
+
+                <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Michael_Jackson_in_1988.jpg/245px-Michael_Jackson_in_1988.jpg"
+                        alt="Michael_Jackson_in_1988 image" width="200" height="300" class="" id="smart_thumbnail"></a>
+
+            </div>
+            <h1>Beethoven</h1>
+            <div class="nene">
+                <div class="he">
+                    <p>
+                        <strong> Ludwig van Beethoven</strong> (baptised 17 December 1770 – 26 March 1827) was a German
+                        composer and pianist. A crucial figure in the transition between the Classical and Romantic
+                        eras in
+                        classical music, he
+                        remains one of the most recognised and influential of all composers. His best-known
+                        compositions
+                        include 9 symphonies; 5 piano concertos; 1 violin concerto; 32 piano sonatas; 16 string
+                        quartets; a
+                        mass, the Missa solemnis; and an opera, Fidelio. His career as a composer is conventionally
+                        divided
+                        into early, middle, and late periods; the "early" period is typically seen to last until 1802,
+                        the
+                        "middle" period from 1802 to 1812, and the "late" period from 1812 to his death in 1827.
+                    </p>
+                </div>
+
+
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Beethoven.jpg/800px-Beethoven.jpg"
+                        alt="Beethoven_image" width="220" height="300" class="" id="smart_thumbnail"> </a>
+
+            </div>
+            <h1>Elvis Presly</h1>
+
+            <p>
+                <strong> Elvis Aaron Presley </strong> ( 8 of January of 1935 - 16 of August of 1977 ) was one of
+                the singers
+                Americans most popular twentieth century considered a cultural icon and widely known by his first
+                name, Elvis. He is frequently referred to as "The King of Rock and Roll" or simply "The King."
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wb0Jmy-JYbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </article>
         <aside>
+            <div id="disqus_thread"></div>
+            <script>
 
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://project-holberton.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                    powered
+                    by Disqus.</a></noscript>
+            <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F92.243.24.24%2Fproject-holberton%2F.&layout=button_count&size=small&mobile_iframe=true&width=91&height=20&appId"
+                width="91" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowTransparency="true" allow="encrypted-media"></iframe>
+
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false"
+                data-url="http://92.243.24.24">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </aside>
     </main>
-
-
     <footer>
         Made by <a href="https://twitter.com/@DiegoRa22777792" target="_blank">Diego Andres Ramos Ruiz</a> for <a href="https://www.holbertonschool.com"
             target="_blank">Holberton School</a>.
     </footer>
+    <script id="dsq-count-scr" src="//project-holberton.disqus.com/count.js" async></script>
 </body>
+
 </html>

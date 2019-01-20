@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: flex-end;
+
+    
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+
+}
+aside {
+flex: 1;
+overflow-y: auto;
+
+}
+
+.img2 {
+    width: 130px;
+    height: 120px;
+}
+ .nene {
+     display: flex;
+     justify-content: space-between;
+ }
+.he{
+    width: 60%;
+}
+header {
+    background-color: black
+}
+.logo {
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+header li a {
+    color: white;
+}
